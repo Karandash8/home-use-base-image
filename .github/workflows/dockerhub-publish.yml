@@ -7,7 +7,7 @@ on:
 
 jobs:
   docker:
-    runs-on: home-use
+    runs-on: home-use-base-image
     environment:
       name: dockerhub
       url: https://hub.docker.com/repository/docker/karandash8/home-use-base-image
